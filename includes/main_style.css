@@ -6,7 +6,9 @@
 body {
 	width:1200px;
 	margin:auto;
-	border:2px solid #009688;
+	color: #f7fff7;
+	border:2px solid #4f772d;
+	background-color: #52b788;
 }
 li {
 	list-style:none;
@@ -16,16 +18,16 @@ a {
 	text-decoration:none;
 }
 *:focus {
-	outline:1px solid #009688;
+	outline:1px solid #4f772d;
 }
 ::-moz-selection { /* Code for Firefox */
     color: white;
-	background:#009688;
+	background:#4f772d;
 }
 
 ::selection {
     color: white;
-	background:#009688;
+	background:#4f772d;
 }
 /* Login Form Design starts here. */
 .login-form li {
@@ -37,13 +39,13 @@ a {
 	width:500px;
 	margin:auto;
 	margin-top:10%;
-	border:2px solid #009688;
-	background:#f6f6f6;
+	border:2px solid #4f772d;
+	
 }
 .login-box h1 {
 	text-align:center;
 	margin:0px;
-	background-color:#009688;
+	background-color:#4f772d;
 	color:white;
 	font-weight:normal;
 }
@@ -79,14 +81,14 @@ label {
 	margin-top:20px;
 	margin-right:20px;
 	padding:6px 10px;
-	background-color:#009688;
+	background-color:#4f772d;
 	border:none;
 	color:white;
 }
 .submit_button:hover,.submit_button:focus {
 	cursor:pointer;
 	color:black;
-	background:#32ab9f;
+	background:#4f772d;
 }
 .error_message {
 	margin-left:5px;
@@ -102,7 +104,7 @@ label {
 
 /* Design Admin page starts here. */
 header {
-	background-color:#009688;
+	background-color:#4f772d;
 	height:100px;
 	margin:0px auto;
 }
@@ -116,7 +118,7 @@ header h1 {
 nav {
 	margin:0px;
 	text-align:center;
-	background-color:#EEEEEE;
+	background-color:#ecf39e;
 	border-bottom:2px solid #ccc;
 }
 nav a {
@@ -125,7 +127,7 @@ nav a {
 	padding:10px 20px;
 }
 nav a:hover {
-	background-color:#009688;
+	background-color:#4f772d;
 	color:white;
 }
 .table_mainWrapper {
@@ -144,7 +146,7 @@ aside a {
 	padding:10px 20px;
 }
 aside a:hover {
-	background-color:#009688; /* #d6d6d6 */
+	background-color:#4f772d; /* #d6d6d6 */
 	color:white;
 }
 #td_section {
@@ -164,20 +166,24 @@ section h1 {
 	font-weight:normal;
 	color:#333;
 	font-size: 26px;
+	
 }
 section p {
 	width:800px;
 	line-height: 25px;
+	
 }
 article {
 	margin-top:20px;
 	margin-bottom:50px;
+	
 }
 article h2 {
 	margin-bottom:5px;
 	font-weight:normal;
 	color:#333;
 	font-size: 20px;
+	
 }
 table {
 	border-collapse: collapse;
@@ -216,7 +222,7 @@ footer {
 	clear:both;
 	padding:20px;
 	font-size:20px;
-	background-color:#009688; /* #009688 */
+	background-color:#4f772d; /* #4f772d */
 	color:white;
 	text-align:center;
 }
