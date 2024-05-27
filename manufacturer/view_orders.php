@@ -50,7 +50,7 @@
 						else {
 							mysqli_data_seek($result_selectOrder,0);
 						}
-						
+
 					}
 					else if(!empty($_POST['cmbStatus'])) {
 						if($_POST['cmbStatus'] == "zero") {
